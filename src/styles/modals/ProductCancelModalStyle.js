@@ -1,0 +1,65 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+    container: {
+        position: 'absolute', 
+        top: 0, 
+        left: 0, 
+        right: 0, 
+        bottom: 0, 
+        justifyContent: 'center', 
+        alignItems: 'center',
+        backgroundColor: '#005ead',
+    },
+    buttonsContainer: {
+        flex: 1, 
+        flexDirection: 'row', 
+        justifyContent: 'center', 
+        alignItems: 'stretch',
+    },
+    title: {
+        textAlign: "center",
+        fontSize: 23,
+        fontWeight: "800",
+        color: "#ffffff",
+        borderBottomWidth: 2,
+        borderBottomColor: '#ffffff',
+        marginTop: 280,
+        marginBottom: 15,
+        marginLeft: 20,
+        marginRight: 20,
+    },
+    inputForm: {
+        borderColor: '#999',
+        borderWidth: 1,
+        margin: 8,
+        fontSize: 18,
+        fontWeight: '400',
+        color: '#000',
+        backgroundColor: "#fff",
+        borderRadius: 15,
+        width: 280,
+    },
+    button: {
+        margin: 20,
+        backgroundColor: "#004179",
+        borderRadius: 50,
+    },
+    buttonCancel: {
+        margin: 20,
+        backgroundColor: "#b91c1c",
+        borderRadius: 50,
+    },
+    buttonText: {
+        textAlign: 'center',
+        paddingTop: 15,
+        paddingBottom: 15,
+        paddingLeft: 50,
+        paddingRight: 50,
+        color: 'white',
+        fontSize: 19,
+    },
+    externalButtonContainer: {
+        flex: 1,
+    },
+});

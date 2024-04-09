@@ -1,0 +1,96 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+    body: {
+      backgroundColor: '#005ead',
+      paddingTop: 20,
+    },
+    title: {
+      textAlign: "center",
+      fontSize: 28,
+      fontWeight: "800",
+      color: "#fff",
+      textShadowRadius: 2,
+      textShadowColor: "#000",
+      textShadowOffset: {width: -1, height: 1},
+      fontWeight: "bold",
+      paddingTop: 10,
+      paddingBottom: 10,
+    },
+    subtitle: {
+      textAlign: "left",
+      color: "#fff",
+      paddingLeft: 20,
+      marginTop: 16,
+    },
+    subtitle2: {
+      textAlign: "right",
+      color: "#fff",
+      paddingRight: 10,
+      paddingTop: 5,
+      paddingBottom: 5,
+      marginTop: 8,
+    },
+    subtitle3: {
+      textAlign: "right",
+      fontSize: 18,
+      color: "#fff",
+      paddingRight: 10,
+      paddingBottom: 100,
+    },
+    error: {
+      backgroundColor: '#005ead',
+      margin: 10,
+      textAlign: "center",
+      borderRadius: 50,
+    },
+    errorIcon: {
+      textAlign: "center",
+      fontSize: 60,
+      fontWeight: "800",
+      color: "#ff0000",
+    },
+    errorText: {
+      textAlign: "center",
+      fontSize: 20,
+      fontWeight: "800",
+      color: "#ff0000",
+    },
+    loginButton: {
+      margin: 16,
+      backgroundColor: "#004179",
+      borderRadius: 50,
+      flex: 1, 
+      flexDirection: 'row', 
+      justifyContent: 'center', 
+      alignItems: 'stretch',
+    },
+    loginButtonText: {
+      textAlign: 'center',
+      padding: 20,
+      color: 'white',
+      fontSize: 19,
+      fontWeight: "bold",
+      textShadowRadius: 2,
+      textShadowColor: "#000",
+      textShadowOffset: {width: -1, height: 1},
+    },
+    inputForm: {
+      borderColor: '#999',
+      borderWidth: 1,
+      margin: 8,
+      paddingLeft: 20,
+      fontSize: 18,
+      fontWeight: '400',
+      color: '#000',
+      backgroundColor: "#fff",
+      borderRadius: 50,
+    },
+    logo: {
+      justifyContent: "center",
+      alignItems: "center",
+      margin: 16,
+      paddingBottom: 20,
+    }
+  }
+);
