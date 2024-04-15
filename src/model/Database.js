@@ -7,7 +7,6 @@ export default class Database {
     static databaseInstance = null;
 
     static NAME = "pennsylvania";
-    static VERSION = "0.5";
     static VERSION = "0.4";
     static DESCRIPTION = "Pennsylvania Database";
     // Database size in bytes (32MB)

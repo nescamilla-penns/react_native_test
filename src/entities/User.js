@@ -25,7 +25,7 @@ export default class User extends Entity {
         return this.email;
     }
 
-    setPassowrd(password) {
+    setPassword(password) {
         this.password = password;
     }
 

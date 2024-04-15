@@ -26,7 +26,7 @@ export default class Sync {
                 let user = new User();
                 user.setId(jsonUser.id);
                 user.setName(jsonUser.username);
-                user.setPassowrd(jsonUser.password);
+                user.setPassword(jsonUser.password);
                 user.setActive(jsonUser.active);
                 user.setEmail(jsonUser.email);
                 user.setDate(jsonUser.date);
@@ -162,8 +162,8 @@ export default class Sync {
                     };
                   });
                 });
-              console.log("Ejemplo: "+ base64);
-              console.log("Products: " + products.length);
+            //   console.log("Ejemplo: "+ base64);
+            //   console.log("Products: " + products.length);
               product.setBase64(base64);
             }
             fetch(Sync.URL + "competition_products/saveSurveyProduct", {

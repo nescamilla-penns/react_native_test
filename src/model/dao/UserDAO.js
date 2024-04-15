@@ -58,7 +58,7 @@ export default class UserDAO {
             user = new User();
             user.setId(item.id);
             user.setName(item.name);
-            user.setPassowrd(item.password);
+            user.setPassword(item.password);
             user.setActive(item.active);
             user.setEmail(item.email);
             user.setDate(item.date);
@@ -81,7 +81,7 @@ export default class UserDAO {
             user = new User();
             user.setId(item.id);
             user.setName(item.name);
-            user.setPassowrd(item.password);
+            user.setPassword(item.password);
             user.setActive(item.active);
             user.setEmail(item.email);
             user.setDate(item.date);
@@ -102,7 +102,7 @@ export default class UserDAO {
             let user = new User();
             user.setId(item.id);
             user.setName(item.name);
-            user.setPassowrd(item.password);
+            user.setPassword(item.password);
             user.setActive(item.active);
             user.setEmail(item.email);
             user.setDate(item.date);
